@@ -1,0 +1,161 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+.header {
+  background-color: black;
+  overflow: hidden;
+  padding-top: 10px; 
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.header a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 1.1vw;
+}
+
+.header a:hover {
+  color: #FF13A7;
+}
+
+.header-right {
+  float: right;
+  padding: 20px;
+}
+
+.number {
+  color: #FF13A7;
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: auto ;
+}
+
+.title {
+  position: absolute;
+  top: 200px;
+  left: 60px;
+  
+}
+.title h1 {
+  font-size: 8vw;
+  margin: 0px;
+}
+
+.title p {
+  color: #FF13A7;
+  font-size: 1.2vw;
+}
+
+.title h2 {
+  font-size: 1.3vw;
+  color: rgba(214, 229, 241, 0.73);
+}
+
+.headers {
+  padding-top: 50px;
+  padding-left: 250px;
+  text-align: left;
+  font-size: 3vw;
+}
+
+.desc {
+  font-size: 1.2vw;
+  margin-left: 250px;
+  text-align: justify;
+  text-justify: inter-word;
+  color: rgba(214, 229, 241, 0.73);
+}
+
+h3 {
+  margin-left: 250px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.card {
+  width: 20%;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.card2 {
+  width: 20%;
+  display: inline-block;
+  padding: 0px 30px;
+}
+
+.cards {
+  padding: 60px 250px;
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
+
+button {
+  margin-left: 250px;
+  background-color: #FF13A7;
+  color: white;
+  font-weight: bold;
+  padding: 10px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+progress {
+  margin-left: 250px;
+  width: 500px;
+}
+
+input[type=text], input[type=email] {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+footer {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 5px;
+  padding-top: 20px;
+  padding-left: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+footer a {
+  color: #FF13A7;
+  padding-left: 30px;
+  
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .header-right {
+    float: none;
+  }
+}
